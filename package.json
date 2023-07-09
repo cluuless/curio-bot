@@ -1,0 +1,19 @@
+{
+  "name": "curio-bot",
+  "version": "1.0.0",
+  "description": "A little curator discord bot that saves posts to another channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cluuless",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/mysql": "^1.6.8",
+    "discord.js": "^14.9.0",
+    "keyv": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
