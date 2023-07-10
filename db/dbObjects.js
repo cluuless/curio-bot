@@ -7,7 +7,7 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USERNAME, pr
 	storage: 'database.sqlite',
 });
 
-const EmojiMap = require('./models/EmojiMap.js')(sequelize, Sequelize.DataTypes);
+const EmojiMap = require('../models/EmojiMap.js')(sequelize, Sequelize.DataTypes);
 
 function constructKey(guild_id, emoji_str) {
 	return `${guild_id}::${emoji_str}`;

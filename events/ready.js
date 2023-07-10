@@ -1,6 +1,5 @@
-const { Op } = require('sequelize');
 const { Events } = require('discord.js');
-const { EmojiMap } = require('../dbObjects.js');
+const { EmojiMap } = require('../db/dbObjects.js');
 
 module.exports = {
 	name: Events.ClientReady,

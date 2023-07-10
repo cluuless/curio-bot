@@ -1,22 +1,23 @@
 module.exports = (sequelize, DataTypes) => {
 	return sequelize.define('emojimaps', {
-		key: {  // guildid::emoji
+		// key: guildid::emoji
+		key: {
 			type: DataTypes.STRING,
-			primaryKey: true
+			primaryKey: true,
 		},
 		guildid: {
 			type: DataTypes.STRING,
-			defaultValue: "",
+			defaultValue: '',
 			allowNull: false,
 		},
 		emoji: {
 			type: DataTypes.STRING,
-			defaultValue: "⭐",
+			defaultValue: '⭐',
 			allowNull: false,
 		},
 		channel: {
 			type: DataTypes.STRING,
-			defaultValue: "",
+			defaultValue: '',
 			allowNull: false,
 		},
 	}, {
