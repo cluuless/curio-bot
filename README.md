@@ -2,6 +2,8 @@
 
 When you react to a Discord message with a specific emoji, Curio will collect it and post it to a channel of your choosing. Works similar to the Reactji bot for Slack.
 
+---
+
 ## Commands
 
 ### Basic Commands
@@ -23,6 +25,8 @@ List all reaction emojis and channels that Curio is currently curating in your s
 `/collectmultiple [emoji] [messageurl1] [messageurl2] [messageurl3 (optional)]`
 
 Collect up to 3 messages and post to the emoji's curation channel. You must provide the URL to each message you would like to collect. To get the URL of a message, select the `...` menu, and then click `Copy Message Link`.
+
+---
 
 ## Who is maintaining this?
 
