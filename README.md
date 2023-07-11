@@ -32,8 +32,6 @@ Collect up to 3 messages and post to the emoji's curation channel. You must prov
 
 Currently @cluuless is the sole maintainer of this repo as a small side project. For now, issues will be addressed as best effort (unless this suddenly blows up and gets really popular, in which case I may re-evaluate).
 
----
-
-Want to help out with server costs and maintenance?
+Want to help support maintenance and development?
 
 <a href="https://www.buymeacoffee.com/ariyassa" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
