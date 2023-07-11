@@ -1,13 +1,13 @@
 {
   "name": "curio-bot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A little curator discord bot that saves posts to another channel.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cluuless",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "dependencies": {
     "discord.js": "^14.9.0",
     "dotenv": "^16.3.1",
@@ -16,5 +16,24 @@
   },
   "devDependencies": {
     "eslint": "^8.38.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cluuless/curio-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "reactions",
+    "utility",
+    "message",
+    "management"
+  ],
+  "bugs": {
+    "url": "https://github.com/cluuless/curio-bot/issues"
+  },
+  "homepage": "https://github.com/cluuless/curio-bot#readme",
+  "scripts": {
+    "start": "node deploy-commands.js & node index.js"
   }
 }
