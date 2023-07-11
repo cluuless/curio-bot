@@ -31,4 +31,5 @@ Currently @cluuless is the sole maintainer of this repo as a small side project.
 ---
 
 Want to help out with server costs and maintenance?
+
 <a href="https://www.buymeacoffee.com/ariyassa" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
